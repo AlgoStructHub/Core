@@ -1,16 +1,9 @@
-# Starlight Starter Kit: Basics
+# AlgoXStruct: Your One-Stop Resource for Algorithms and Data Structures
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-```
-npm create astro@latest -- --template starlight
-```
+Welcome to AlgoXStruct, a comprehensive resource for learning and understanding algorithms and data structures. Our mission is to collect all information about algorithms and data structures in one place, providing clear explanations, practical examples, and interactive exercises to help you master these fundamental computer science concepts.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 ## 🚀 Project Structure
 
@@ -49,6 +42,16 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 📚 Content
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Our content is divided into two main sections: Algorithms and Data Structures. Each section contains numerous articles, examples, and exercises to help you understand and apply these concepts.
+
+## 🤝 Contribute
+
+We welcome contributions from the community. Whether you want to add new content, improve existing content, or fix issues, your help is appreciated. Please see our [Contribution Guide](CONTRIBUTING.md) for more details.
+
+## 📖 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+
+
