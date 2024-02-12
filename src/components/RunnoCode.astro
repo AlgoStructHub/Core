@@ -2,16 +2,14 @@
 // Astro component script (frontmatter script)
 // Define any necessary server-side or component-level logic here.
 ---
+
 <div>
   <script type="module">
-    import Runno from 'https://cdn.skypack.dev/@runno/runtime';
-    // Initialize @runno/runtime as necessary
-    console.log('Runno loaded:', Runno);
-    // Your code to set up and use @runno/runtime goes here
+    import Runno from "https://cdn.skypack.dev/@runno/runtime";
+    console.log("Runno loaded:", Runno);
   </script>
 
-  <!-- Your component's HTML where you might use @runno/runtime functionality -->
-  <runno-run runtime="python" editor controls>
+  <runno-run runtime="python" editor controls  fs-url="/numpy-1.26.4.tar.gz">
     print("What's your name?")
   </runno-run>
 </div>
