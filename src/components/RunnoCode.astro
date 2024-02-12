@@ -1,0 +1,21 @@
+---
+// Astro frontmatter
+---
+
+<div>
+  <runno-run runtime="python" editor controls>
+    print("What's your name?")
+  </runno-run>
+</div>
+
+<script>
+  // init.js
+  if (typeof window !== "undefined") {
+    import("https://cdn.skypack.dev/@runno/runtime")
+      .then(() => {
+        console.log("@runno/runtime imported successfully");
+        // Your code to use @runno/runtime goes here
+      })
+      .catch((err) => console.error("Failed to import @runno/runtime:", err));
+  }
+</script>

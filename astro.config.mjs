@@ -9,9 +9,9 @@ export default defineConfig({
       social: {
         github: "https://github.com/AlgoStructHub/Core",
       },
-	  customCss: [
+      customCss: [
         // Relative path to your custom CSS file
-        './src/styles/custom.css',
+        "./src/styles/custom.css",
       ],
       sidebar: [
         {
@@ -26,6 +26,6 @@ export default defineConfig({
           autogenerate: { directory: "reference" },
         },
       ],
-    }),
+    }), // Add a comma here
   ],
 });
