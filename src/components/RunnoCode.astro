@@ -1,21 +1,17 @@
 ---
-// Astro frontmatter
+// Astro component script (frontmatter script)
+// Define any necessary server-side or component-level logic here.
 ---
-
 <div>
+  <script type="module">
+    import Runno from 'https://cdn.skypack.dev/@runno/runtime';
+    // Initialize @runno/runtime as necessary
+    console.log('Runno loaded:', Runno);
+    // Your code to set up and use @runno/runtime goes here
+  </script>
+
+  <!-- Your component's HTML where you might use @runno/runtime functionality -->
   <runno-run runtime="python" editor controls>
     print("What's your name?")
   </runno-run>
 </div>
-
-<script>
-  // init.js
-  if (typeof window !== "undefined") {
-    import("https://cdn.skypack.dev/@runno/runtime")
-      .then(() => {
-        console.log("@runno/runtime imported successfully");
-        // Your code to use @runno/runtime goes here
-      })
-      .catch((err) => console.error("Failed to import @runno/runtime:", err));
-  }
-</script>
