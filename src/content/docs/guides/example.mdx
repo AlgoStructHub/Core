@@ -1,8 +1,11 @@
 ---
 title: Example Guide
 description: A guide in my new Starlight docs site.
+layout:  ../../../Layouts/BaseLayout.astro
+
 ---
-import RunnoCode from '../../../components/RunnoCode.astro';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
 Writing a good guide requires thinking about what your users are trying to do.
@@ -10,6 +13,26 @@ Writing a good guide requires thinking about what your users are trying to do.
 ## Further reading
 
 - Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+<Tabs>
+  <TabItem label="Python">
+    <runno-run runtime="python" editor controls style="overflow: hidden;">
+      <pre><code>{`print("What's your name?")`}</code></pre>
+    </runno-run>
+  </TabItem>
+  <TabItem label="C++">
+    <runno-run runtime="clangpp" editor controls style="overflow: hidden;">
+      <pre><code>{`
+        #include <iostream>
+        int main() {
+            std::cout << "Hello, World!" << std::endl << "What's your name? ";
+            std::string name;
+            getline(std::cin, name);
+            std::cout << "G'day " << name << ", welcome to Runno." << std::endl;
+            return 0;
+        }
+      `}</code></pre>
+    </runno-run>
+  </TabItem>
+</Tabs>
 
 
-<RunnoCode />

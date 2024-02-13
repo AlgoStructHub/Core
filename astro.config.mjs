@@ -6,6 +6,11 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Algo X Struct",
+      logo: {
+        dark: "./src/assets/dark.svg",
+        light: "./src/assets/light.svg",
+        replacesTitle: true,
+      },
       social: {
         github: "https://github.com/AlgoStructHub/Core",
       },
@@ -26,6 +31,6 @@ export default defineConfig({
           autogenerate: { directory: "reference" },
         },
       ],
-    }), // Add a comma here
+    }),
   ],
 });
